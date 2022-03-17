@@ -1,5 +1,6 @@
-package Service;
+package com.graphql.graphqldemo.Service;
 
+import com.graphql.graphqldemo.repository.StocksDataFetcher;
 import graphql.GraphQL;
 import graphql.schema.GraphQLSchema;
 import graphql.schema.idl.RuntimeWiring;
@@ -10,7 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
-import repository.StocksDataFetcher;
 
 import javax.annotation.PostConstruct;
 import java.io.IOException;

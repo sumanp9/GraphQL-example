@@ -1,4 +1,4 @@
-package model;
+package com.graphql.graphqldemo.model;
 
 import lombok.Data;
 

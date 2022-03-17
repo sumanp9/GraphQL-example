@@ -1,6 +1,6 @@
-package controller;
+package com.graphql.graphqldemo.controller;
 
-import Service.GraphQLService;
+import com.graphql.graphqldemo.Service.GraphQLService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import graphql.ExecutionResult;

@@ -1,8 +1,8 @@
-package repository;
+package com.graphql.graphqldemo.repository;
 
 import graphql.schema.DataFetcher;
 import graphql.schema.DataFetchingEnvironment;
-import model.StockDetails;
+import com.graphql.graphqldemo.model.StockDetails;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
